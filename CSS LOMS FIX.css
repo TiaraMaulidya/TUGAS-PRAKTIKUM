@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url('1.png');
+	background-size: 100% 720px;
+	background-position: top;
+	font-family: sans-serif;	
+}
+ 
+h1{
+	font-family: handwriting;
+	font-size: 30px;
+	text-align: center;
+	margin: 0 0 10px;
+	padding: 0;
+	color: white;
+	
+
+}
+ 
+.kotak_form{
+	font-family:times new romance,serif;
+	width: 320px;
+	height: 420px;
+	background:  #A03906;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.left_box{
+	position: relative;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+}
+
+input[type="text"]
+input[type=password]
+{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 4px;
+	text-align: center;
+	background: #fff;
+	width: 220px;
+	height: 32px
+	border:none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: serif;
+	font-weight: 400px;
+	font-size: 15px;
+	transition: 0.2s ease;
+}
+ 
+
+ 
